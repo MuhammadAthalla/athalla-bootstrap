@@ -1,0 +1,74 @@
+.bg-img{
+  background-image: url(../img/tenun\ 1.png);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  z-index: -99;
+
+}
+
+#title{
+   position: absolute;
+   top: 15%;
+   left: 40%;
+}
+
+.masthead{
+   min-height: 95vh;
+   position: relative;
+   background-size: cover;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+}
+
+.masthead .container{
+   overflow: hidden;
+
+}
+
+
+.masthead h1 {
+   color: aliceblue;
+   position: absolute;
+   left: 46%;
+   top: 50%;
+   max-width: 550px;
+   
+}
+.masthead p {
+   color: aliceblue;
+   position: absolute;
+   left: 20%;
+   top: 65%;
+   max-width: 550px;
+   text-align: center;
+   
+}
+
+.img-overlay{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   
+}
+
+@media (max-width: 991.98px) {
+   .masthead{
+      min-height: 30;
+   }
+}
+
+#model{
+   /* margin-bottom: 10px; */
+}
+
+footer{
+    background-color: black;
+    padding: 32px 0;
+    
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    /* margin-top: -10px;     q */
+}
