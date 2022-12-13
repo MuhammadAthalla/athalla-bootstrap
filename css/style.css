@@ -31,15 +31,16 @@
 .masthead h1 {
    color: aliceblue;
    position: absolute;
-   left: 46%;
-   top: 50%;
+   margin: 0 auto;
+   bottom: 1.25rem;
    max-width: 550px;
+   
    
 }
 .masthead p {
    color: aliceblue;
    position: absolute;
-   left: 20%;
+   margin: 0 auto;
    top: 65%;
    max-width: 550px;
    text-align: center;
@@ -59,9 +60,7 @@
    }
 }
 
-#model{
-   /* margin-bottom: 10px; */
-}
+
 
 footer{
     background-color: black;
@@ -71,4 +70,69 @@ footer{
     font-weight: bold;
     color: rgb(255, 255, 255);
     /* margin-top: -10px;     q */
+}
+
+.navbar-brand,
+.nav-link {
+   
+  color: white !important;
+  
+}
+
+.navbar{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+
+}
+
+.nav-link::after{
+    content: "";
+    width: 0;
+    display: block;
+    height: 3px;
+    border-radius: 15px;
+    background-color: red;
+    transition: width 0.3s;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+    transition: width 0.3s;
+}
+
+.active::after{
+    width: 100%;
+    
+}
+nav{
+   position: fixed;
+   top: 0;
+   left: 0;
+
+}
+.cards-header::after {
+    width: 10%;
+    content: "";
+    display: block;
+    height: 3px;
+    border-radius: 15px;
+    background-color: red;
+}
+
+#text-judul h1{
+   content: "";
+   width: 0;
+   display: block;
+   height: 3px;
+   border-radius: 15px;
+   background-color: aliceblue;
+   transition: width 0.3s;
+
+}
+
+@media screen and (max-width:576px){
+   
+   
 }

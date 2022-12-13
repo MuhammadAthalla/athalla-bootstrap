@@ -4,33 +4,34 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>B H S</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- css  -->
     <link rel="stylesheet" href="./css/style.css">
-
+    <!-- aos  -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- logo -->
     <link rel="icon" href="./img/logo.png">
     <!-- font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-dark " style="z-index: 99;">
   <div class="container-lg">
-    <a class="navbar-brand fw-bold letter-spacing-center" href="#" style="letter-spacing: 15px;">BHS</a>
+    <a class="navbar-brand fw-bold letter-spacing-center" href="#" style="letter-spacing: 15px;;"><img style="width: 4rem;" src="./img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#jenis">Jenis</a>
+          <a class="nav-link text-white" href="#jenis">Jenis</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#model">Model</a>
+          <a class="nav-link text-white" href="#model">Model</a>
         </li>
       </ul>
     </div>
@@ -40,24 +41,35 @@
     <div class="img-overlay">
       <div class="container">
       
-        <h1>BHS</h1>
-        <P>Dapatkan kenayamanan saat menggunakan sarung dengan kualitas terbaik</P>
+        <h1> <span style="color: gold; letter-spacing: 10px;
+          font-family: 'Fredoka';">BHS</span>  <br>
+        <span style="font-size: 2rem;"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, alias debitis? Aliquid?</span></h1>
+        
       </div>
     </div>
   </div>
    
-   <main style="background-image: url(./img/tom-rumble-UjbvkWPdSIA-unsplash\ 1.png);" id="jenis">
-    <h1 class="text-center text-white py-3" style="background: rgb(60, 60, 60);" ><img style="width: 10%;" src="./img/logo.png" alt=""></h1>
+       <main  style="background-image: url(./img/l-img20210201084402e4e0d980d43893a6d5ee387f2ada788e20210201014756-bimacms\ 3.png); background-size: cover;" id="jenis">
+            <h1 class="text-center text-white py-3" style="background: rgb(60, 60, 60);" ><img style="width: 10%;" src="./img/logo.png" alt=""></h1>
+        <div class="cards-header container">
+           <h3 class="fw-bold fs-3 text-white pt-5 "><i class="fa-sharp fa-solid fa-heart text-danger text-center"></i>Model<span class="text-danger">.</span></h3>
+       
+          </div>
      <div class="container">
-       <div class="row justify-content-center my-5">
-           <div class="col align-self-center">
+       <div class="row justify-content-center my-5" >
+           <div  class="col align-self-center" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                <h3 class="fw-bold text-white" style="letter-spacing: 10px;">BHS</h3>
                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vero ut illum voluptatibus pariatur
                    magni, ex impedit, ipsam eius tenetur, corrupti quisquam suscipit libero obcaecati assumenda
                    asperiores totam numquam necessitatibus.</p>
            </div>
  
-           <div class="col-lg-auto">
+           <div class="col-lg-auto"  data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
                <div id="carouselExampleCaptions" class="carousel carousel-fade" data-bs-ride="carousel"
                    data-interval="1000">
  
@@ -96,25 +108,106 @@
                </div>
            </div>
           </div>
-          <div class="row " id="model" style="justify-content: space-between; gap: 3rem; margin-top: 10rem; ">
-                          <div class="card col" style="width: 18rem;">
+          <div class="row py-5 " id="model" style="justify-content: space-between; gap: 3rem; margin-top: 10rem; ">
+            <div class="cards-header container">
+           <h3 class="fw-bold fs-3 text-white pt-5 "><i class="fa-sharp fa-solid fa-heart text-danger text-center"></i>Jenis<span class="text-danger">.</span></h3>
+       
+          </div>
+                <div data-aos="flip-left"
+                      data-aos-easing="ease-out-cubic"
+                      data-aos-duration="2000"class="card col col-lg-auto col-md-auto col-sm-1 mx-auto mx-lg-auto mx-md-auto mx-sm-auto mb-5 align-content-center" style="width: 18rem; ">
                   <img src="./img/Subtract 2.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quasi vero esse.</p>
                   </div>
+                  <button href="#" class="btn btn-primary position-absolute top-100 start-50 translate-middle"data-bs-toggle="modal" data-bs-target="#simpleModal" >Go somewhere</button>
                 </div>
-                <div class="card col" style="width: 18rem;">
+                <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="card col col-lg-auto col-md-auto col-sm-1 mx-auto mx-lg-auto mx-md-auto mx-sm-auto mb-5 align-content-center" style="width: 18rem;">
                   <img src="./img/Subtract.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quam id? Iure.</p>
                   </div>
+                  <button href="#" class="btn btn-primary position-absolute top-100 start-50 translate-middle"data-bs-toggle="modal" data-bs-target="#simpleModal" >Go somewhere</button>
                 </div>
-                <div class="card col" style="width: 18rem;">
+                <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="card col col-lg-auto col-md-auto col-sm-1 mx-auto mx-lg-auto mx-md-auto mx-sm-auto mb-5 align-content-center" style="width: 18rem; ">
                   <img src="./img/Subtract 1.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente vero minus tempore!</p>
                   </div>
+                  <button href="#" class="btn btn-primary position-absolute top-100 start-50 translate-middle"data-bs-toggle="modal" data-bs-target="#simpleModal" >Go somewhere</button>
                 </div>
+                <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="card col col-lg-auto col-md-auto col-sm-1 mx-auto mx-lg-auto mx-md-auto mx-sm-auto mb-5 align-content-center" style="width: 18rem; ">
+                  <img src="./img/Subtract 1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aut laudantium aliquam?</p>
+                  </div>
+                  <button href="#" class="btn btn-primary position-absolute top-100 start-50 translate-middle"data-bs-toggle="modal" data-bs-target="#simpleModal" >Go somewhere</button>
+                </div>
+                <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="card col col-lg-auto col-md-auto col-sm-1 mx-auto mx-lg-auto mx-md-auto mx-sm-auto mb-5 align-content-center" style="width: 18rem; ">
+                  <img src="./img/Subtract 1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga nulla voluptates.</p>
+                  </div>
+                  <button href="#" class="btn btn-primary position-absolute top-100 start-50 translate-middle"data-bs-toggle="modal" data-bs-target="#simpleModal" >Go somewhere</button>
+                </div>
+                <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="card col col-lg-auto col-md-auto col-sm-1 mx-auto mx-lg-auto mx-md-auto mx-sm-auto mb-5 align-content-center" style="width: 18rem; ">
+                  <img src="./img/Subtract 1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga nulla voluptates.</p>
+                  </div>
+                  <button href="#" class="btn btn-primary position-absolute top-100 start-50 translate-middle"data-bs-toggle="modal" data-bs-target="#simpleModal" >Go somewhere</button>
+                </div>
+          </div>
+          <div class="cards-header container">
+           <h3 class="fw-bold fs-3 text-white pt-5 "><i class="fa-sharp fa-solid fa-heart text-danger text-center"></i>About<span class="text-danger">.</span></h3>
+          </div>
+
+          <div class="container" id="about">
+            <div class="row my-5 py-5 "data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+              <div class="col col-sm-auto d-flex pb-3" ">
+                <img class="w-50" src="./img/image 79.png" alt="">
+              </div>
+              <div class="col text-white">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora obcaecati id laudantium officiis quibusdam rem ducimus, facilis aut ex quas, doloribus recusandae accusantium minus repudiandae assumenda repellendus! Beatae, pariatur.</p>
+              </div>
+             
+
+            </div>
+
+            <div class="row my-5 py-5" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+              <div class="col col-sm-auto d-flex pb-3 ">
+                <img class="w-50" src="./img/image 80.png" alt="">
+              </div>
+              <div class="col text-white">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, dolores. Dolorum, ea nihil aliquam eligendi assumenda illo! Pariatur velit, expedita natus aperiam rerum error, corrupti officia, quia sed ab animi?</p>
+              </div>
+              
+            </div>
+
+            <div class="row py-5 " data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" >
+              <div class="col col-sm-auto d-flex pb-3">
+                <img class="w-50" src="./img/sarung 1.png" alt="">
+              </div>
+              <div class="col text-white">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reiciendis ipsa eveniet! Error explicabo dolorem recusandae debitis corrupti quaerat. Iure, quo? Optio itaque aliquam assumenda dicta nesciunt eligendi quidem quia!</p>
+              </div>
+            </div>
           </div>
 
             
@@ -124,10 +217,15 @@
 
    <footer>
     <div id="copyright" align="center">
-        &copy;Muhammad Athalla
+        &copy;BHS Sarung Kita
     </div>
 </footer> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
   
 
